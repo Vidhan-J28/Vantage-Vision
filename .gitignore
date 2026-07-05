@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model weights (usually large, don't commit)
+*.pt
+*.onnx
+
+# Analyzed data / outputs
+*.json
+!config.json
+ALL_DATA.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
