@@ -1,0 +1,12 @@
+model:
+  yolo : "yolo11m.pt"
+  conf_threshold : 0.65
+
+data:
+  img_ext : [".png" , ".jpeg" , ".HEIC" , ".jpg"]
+
+app:
+  default_grid: 4
+  show_boxes: false
+  highlight_matches: true
+  search_mode: "Atleast one of the selected ones"
